@@ -544,7 +544,7 @@ def xavierRocaCrespo_ex2(groupName='stairs',
 
     def construccioGrao(numStep, nameStep, *args, **kwargs):
         '''
-        DOCSTRING: aixo es l'ajuda de la funcio
+        Construeix un grao
 
         :param numStep:
         :param nameStep:
@@ -595,6 +595,13 @@ def xavierRocaCrespo_ex2(groupName='stairs',
         mc.parent(radius_grp, steps_grp)
 
     def createHandBar(*args, **kwargs):
+        """
+        Crea la barra de pasamans
+
+        :param args:
+        :param kwargs:
+        :return:
+        """
         handBar_grp = mc.group(em=True, n='{}handbar_grp'.format(moduleName))
         mc.parent(handBar_grp, global_grp)
         mc.select('*handBar*LOC')
@@ -636,6 +643,13 @@ def xavierRocaCrespo_ex2(groupName='stairs',
         mc.parent(handBar[0], handBar_grp)
 
     def createCenterCol(*args, **kwargs):
+        """
+        Crea una columna Central
+
+        :param args:
+        :param kwargs:
+        :return:
+        """
         centerCol, centerColHist = mc.polyCylinder(n='{}centerColumn_geo'.format(moduleName), r=settings['radius'],
                                     h=(settings['numSteps'] * (settings['heightStep'] + settings['offsetStep'])) +
                                       settings['heightHandBar'])
