@@ -18,42 +18,42 @@ def createOffset(obj):
 mc.parentConstraint('Hips', createOffset('CN_Upperbody_CTRL'), mo=True)
 
 # Spine
-mc.parentConstraint('Spine', createOffset('CN_Spine_FK1_CTRL'), mo=True)
-mc.parentConstraint('Spine1', createOffset('CN_Spine_FK2_CTRL'), mo=True)
+mc.orientConstraint('Spine', createOffset('CN_Spine_FK1_CTRL'), mo=True)
+mc.orientConstraint('Spine1', createOffset('CN_Spine_FK2_CTRL'), mo=True)
 mc.parentConstraint('Spine2', createOffset('CN_Chest_CTRL'), mo=True)
 
 # Neck
-mc.parentConstraint('Neck', createOffset('CN_Neck_JNT_ctrl'), mo=True)
+mc.orientConstraint('Neck', createOffset('CN_Neck_JNT_ctrl'), mo=True)
 
 # Head
-mc.parentConstraint('Head', createOffset('Head_CTRL'), mo=True)
+mc.orientConstraint('Head', createOffset('Head_CTRL'), mo=True)
 
 # Shoulders
 mc.parentConstraint('LeftShoulder', createOffset('L_Clavicle_JNT_CTRL'), mo=True)
 mc.parentConstraint('RightShoulder', createOffset('R_Clavicle_JNT_CTRL'), mo=True)
 
 # Arms
-mc.parentConstraint('LeftArm', createOffset('L_Shoulder_FK_CTRL'), mo=True)
-mc.parentConstraint('RightArm', createOffset('R_Shoulder_FK_CTRL'), mo=True)
+mc.orientConstraint('LeftArm', createOffset('L_Shoulder_FK_CTRL'), mo=True)
+mc.orientConstraint('RightArm', createOffset('R_Shoulder_FK_CTRL'), mo=True)
 
-mc.parentConstraint('LeftForeArm', createOffset('L_Elbow_FK_CTRL'), mo=True)
-mc.parentConstraint('RightForeArm', createOffset('R_Elbow_FK_CTRL'), mo=True)
+mc.orientConstraint('LeftForeArm', createOffset('L_Elbow_FK_CTRL'), mo=True)
+mc.orientConstraint('RightForeArm', createOffset('R_Elbow_FK_CTRL'), mo=True)
 
-mc.parentConstraint('LeftHand', createOffset('L_Hand_FK_CTRL'), mo=True)
-mc.parentConstraint('RightHand', createOffset('R_Hand_FK_CTRL'), mo=True)
+mc.orientConstraint('LeftHand', createOffset('L_Hand_FK_CTRL'), mo=True)
+mc.orientConstraint('RightHand', createOffset('R_Hand_FK_CTRL'), mo=True)
 
 # Legs
 mc.parentConstraint('LeftUpLeg', createOffset('L_Hip_FK_CTRL'), mo=True)
 mc.parentConstraint('RightUpLeg', createOffset('R_Hip_FK_CTRL'), mo=True)
 
-mc.parentConstraint('LeftLeg', createOffset('L_Knee_FK_CTRL'), mo=True)
-mc.parentConstraint('RightLeg', createOffset('R_Knee_FK_CTRL'), mo=True)
+mc.orientConstraint('LeftLeg', createOffset('L_Knee_FK_CTRL'), mo=True)
+mc.orientConstraint('RightLeg', createOffset('R_Knee_FK_CTRL'), mo=True)
 
-mc.parentConstraint('LeftFoot', createOffset('L_Foot_FK_CTRL'), mo=True)
-mc.parentConstraint('RightFoot', createOffset('R_Foot_FK_CTRL'), mo=True)
+mc.orientConstraint('LeftForeFoot', createOffset('L_Foot_FK_CTRL'), mo=True)
+mc.orientConstraint('RightForeFoot', createOffset('R_Foot_FK_CTRL'), mo=True)
 
-mc.parentConstraint('LeftToeBase', createOffset('L_Toe_JNT'), mo=True)
-mc.parentConstraint('RightToeBase', createOffset('R_Toe_JNT'), mo=True)
+mc.orientConstraint('LeftToeBase', createOffset('L_Toe_JNT'), mo=True)
+mc.orientConstraint('RightToeBase', createOffset('R_Toe_JNT'), mo=True)
 
 # # hips
 # mc.orientConstraint('Hips', 'CN_Upperbody_CTRL', mo=True)
