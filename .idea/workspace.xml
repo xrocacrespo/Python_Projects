@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a675ae4c-32c4-4a41-a95d-16fa89b288aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00_Basic/Ylva_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Basic/Ylva_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Basic/Ylva_script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00_Basic/Ylva_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/000_LaSalle_2018-2019/MoCap/ENTREGA_MERI/Ylva_script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -115,8 +124,8 @@
     <option name="selectedSdk" value="H:\Maya2018\bin\mayapy.exe" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1458" />
-    <option name="y" value="-44" />
+    <option name="x" value="437" />
+    <option name="y" value="-18" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -125,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +199,8 @@
       <workItem from="1550699994529" duration="13973000" />
       <workItem from="1550714329358" duration="211000" />
       <workItem from="1550791701139" duration="12611000" />
-      <workItem from="1552236605994" duration="8018000" />
+      <workItem from="1552236605994" duration="10396000" />
+      <workItem from="1552347305438" duration="4885000" />
     </task>
     <task id="LOCAL-00001" summary="Starrted">
       <created>1550524036554</created>
@@ -234,17 +244,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550804926214</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Started">
+      <created>1552271607641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552271607641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Started">
+      <created>1552273930560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552273930560</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40142000" />
+    <option name="totallyTimeSpent" value="47405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-33" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -5094,10 +5118,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://G:/000_LaSalle_2018-2019/MoCap/ENTREGA_MERI/Ylva_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/00_Basic/Ylva_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
         </state>
       </provider>
     </entry>
